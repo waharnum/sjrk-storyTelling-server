@@ -15,8 +15,8 @@ module.exports = function (grunt) {
             all: ["package.json", ".jshintrc", "src/**/*.json", "tests/**/*.json", "demos/**/*.json", "!node_modules", "!src/lib/**", "!tests/lib/**"]
         },
         sjrk_couch_config: {
-            files: ['./src/js/dbSetup.js']
-        },
+            files: ["./src/js/dbSetup.js"]
+        }
     });
 
     // Load the plugin(s):
